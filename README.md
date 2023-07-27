@@ -65,7 +65,22 @@ Mobile version has background image and form overlay.
 
 ### Wireframes:
 
+Wireframes were created using Figma [https://www.figma.com]
+
+Home/Landing page:
+![SkyScape (1)](https://github.com/chloejaneward/SkyScape/assets/131905887/5a0b8ae5-b753-415c-bc82-8ddde54e5090)
+
+
+Class schedule page: 
+![SkyScape - Schedule (1)](https://github.com/chloejaneward/SkyScape/assets/131905887/a529d3a7-8ed7-4f4f-a603-223c620a115c)
+
+
+Contact page:
+![SkyScape - Contact](https://github.com/chloejaneward/SkyScape/assets/131905887/cde90927-99df-4a27-9cad-b384efee94ee)
+
+
 ### Surface:
+
 #### Design: 
 
 The theme will be based on pastel sky, pink and light blue tones in background to illustrate the SkyScape theme and the elegant nature of aerial arts. Also in line with the fact that aerial arts are done in the air.
@@ -75,6 +90,7 @@ The theme will be based on pastel sky, pink and light blue tones in background t
 Colours for the site have taken inspiration from a pastel night sky, with light hues of purple and pinks. 
 
 A colour scheme has been chosen by using Coolors.co :
+https://coolors.co/8783d1-aa9aba-bfa4a4-d1abad-e3b9bc
 
 
 #### Fonts:

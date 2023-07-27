@@ -1,39 +1,88 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# SkyScape
 
-Welcome,
+SkyScape is a website for a fictional aerial arts studio. The business operates like a gym and has classes scheduled weekly for aerial hoop, silks and trapeze. The website has a dual purpose; to advertise classes to new customers, and to inform current customers of class times. It will also provide information on how to get in touch with the business owners. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Here is a link to the deployed site: 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+## UX: User Experience
 
-## Codeanywhere Reminders
+### User stories: 
+1.	First time visitors to the site want to learn:
+   
+* The purpose of the site
+* More about the business and where they are based
+* How to easily navigate the website at first glance
+* The cost of joining the aerial classes
+* The schedule of classes and a brief explanation of the classes.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+2. Returning or frequent visitors to the site want to:
 
-`python3 -m http.server`
+* Find information about scheduled classes easily
+* Find out how to get in touch with the business owners.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Scope: 
+-	A navigation bar for easy navigation of the site,
+-	Simple home page that explains what type of aerial apparatus the studio covers,
+-	Schedule of studio classes along with the price of classes,
+-	Easy to access contact information and space for site visitors to send a message to the business owners,
+-	Social media links located in the footer.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Structure: 
+#### Header bar, present on each page–
+Logo and business name ‘SkyScape’ on left side
 
-`http_server`
+Navigation links to the right (home, class schedule, contact), that condenses down to hamburger menu for mobile devices	
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Footer, present on each page, stack on top of each other for mobile devices – 
+	Address
+	Phone number
+	Social media links (Facebook, Twitter, Instagram)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+#### Home or landing page – 
+Header
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Business name, tagline, and basic introduction to the business
 
-To log into the Heroku toolbelt CLI:
+Link to schedule
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Photos and hover over function to explain the three types of apparatus available
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Mobile devices have background image and no information about different apparatus types
 
----
+#### Schedule – 
+Header
 
-Happy coding!
+Columns for three types of classes, including a photo of each to illustrate. List of class times and prices. Mobile devices have background image and schedule stacked above one another. 
+
+#### Contact – 
+Header
+
+Decorative photo for illustrative purposes
+
+Contact form
+
+Mobile version has background image and form overlay. 
+
+### Wireframes:
+
+### Surface:
+#### Design: 
+
+The theme will be based on pastel sky, pink and light blue tones in background to illustrate the SkyScape theme and the elegant nature of aerial arts. Also in line with the fact that aerial arts are done in the air.
+
+#### Colours:
+
+Colours for the site have taken inspiration from a pastel night sky, with light hues of purple and pinks. 
+
+A colour scheme has been chosen by using Coolors.co :
+
+
+#### Fonts:
+
+Borel for logo, Monsterrat and Merriweather
+
+#### Images:
+
+All images chosen will have a light colour tone and will follow a similar colour theme.
+
+Mobile background image is purposefully elegant, with light coloured silk that evokes a feeling of relaxation and elegance. 

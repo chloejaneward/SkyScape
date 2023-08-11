@@ -1,6 +1,32 @@
+/*---------------- colours */
+
+.navigation-bar-colour {
+    background-color: #E3B9BC;
+    color: #505050;
+}
+
 .business-background {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    background-color: #AA9ABA
+}
+
+a {
+    color: #505050
+}
+
+/*---------------- header */
+
+.nav {
+    float: right;
+}
+
+
+
+/*---------------- home page content */
+
+.business-background {
+    padding: 120px;
+    padding: 120px;
+    text-align: center;
 }
 
 .aerial-images {

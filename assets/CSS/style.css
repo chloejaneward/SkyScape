@@ -17,7 +17,6 @@ a {
 
 .nav {
     float: right;
-    display: inline;
 }
 
 .nav-link:hover {
@@ -36,10 +35,9 @@ a {
 
 .aerial-images {
     margin-top: 120px;
- 
-   margin-bottom: 120px;
+    margin-bottom: 120px;
 }
+
 .aerial-images .image1 {
-    background:url("../images/image1.jpg");
-    }
+    background: url("../images/image1.jpg");
 }

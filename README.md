@@ -73,7 +73,7 @@ Mobile version has background image and form overlay.
 
 ### Wireframes
 
-Wireframes were created using Figma [https://www.figma.com]
+Wireframes were created using [Figma](https://www.figma.com)
 
 Home/Landing page:
 ![SkyScape (1)](https://github.com/chloejaneward/SkyScape/assets/131905887/5a0b8ae5-b753-415c-bc82-8ddde54e5090)
@@ -94,15 +94,43 @@ The theme will be based on pastel sky, pink and light blue tones in background t
 
 Colours for the site have taken inspiration from a pastel night sky, with light hues of purple and pinks.
 
-A colour scheme has been chosen by using Coolors.co :
-<https://coolors.co/8783d1-aa9aba-bfa4a4-d1abad-e3b9bc>
+A colour scheme has been chosen by using [Coolors.co](https://coolors.co/8783d1-aa9aba-bfa4a4-d1abad-e3b9bc)
 
 #### Fonts
 
-Borel for logo, Monsterrat and Merriweather
+Fonts were decided by using [FontJoy](https://fontjoy.com/#)
+
+Fonts chosen were: 
+
+Headings and titles - Montserrat Alternates
+General text - Abhaya Libre
+Back-up font - sans-serif
 
 #### Images
 
 All images chosen will have a light colour tone and will follow a similar colour theme.
 
 Mobile background image is purposefully elegant, with light coloured silk that evokes a feeling of relaxation and elegance.
+
+## Resources & Technologies Used
+
+### Languages used
+
+* HTML
+* CSS
+
+### Frameworks used 
+
+* [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) - Bootstrap was used to help make the site more responsible, and to ensure we were creating a mobile-first UXD.
+
+* [Google Fonts](https://fonts.google.com/) - Fonts were imported from Google, with [FontJoy](https://fontjoy.com/#) helping to ensure suitable font pairings.
+
+* [Font Awesome](https://fontawesome.com/) - Icons for social links in the footer, which is good UX as users will recognise these icons. 
+
+* [Figma](https://www.figma.com) - Used for creating Wireframes. 
+
+* [Unsplash](https://unsplash.com/) - 2 of the images were downloaded free from Unsplash for the index.html page. 
+
+* [Pixabay](https://pixabay.com/) - 1 image was downloaded free from Pixabay for the home page. 
+
+* Git - Both GitHub and Git were used for storing the code, and for version control. 

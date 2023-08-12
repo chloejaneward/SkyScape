@@ -69,4 +69,28 @@ img {
 
 .business-background a:hover {
     color: #505050;
+    text-decoration: none;
+}
+
+/*---------------- schedule page content */
+
+.schedule-explanation {
+    text-align: center;
+    padding: 20px;
+    background-color: #AA9ABA;
+    color:#333333
+}
+
+.schedule-explanation a {
+    color: #333333;
+}
+
+.schedule-explanation a:hover {
+    color: #505050;
+    text-decoration: none;
+}
+
+table { 
+    text-align: center;
+    color: #333333;
 }

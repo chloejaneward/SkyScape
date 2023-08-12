@@ -17,13 +17,12 @@ a {
 
 .nav {
     float: right;
-    display: flex;
+    display: inline;
 }
 
 .nav-link:hover {
     color: #000
 }
-
 
 
 /*---------------- home page content */
@@ -32,9 +31,15 @@ a {
     padding: 120px;
     padding: 120px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .aerial-images {
     margin-top: 120px;
-    margin-bottom: 120px;
+ 
+   margin-bottom: 120px;
+}
+.aerial-images .image1 {
+    background:url("../images/image1.jpg");
+    }
 }

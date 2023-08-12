@@ -1,29 +1,33 @@
 /*---------------- header */
 
-.business-name {
-    margin-top: 5px;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-.nav {
-    float: right;
-}
-
-.nav li {
-    display: inline-block;
-    padding-top: 2%;
-}
-
-.nav-link {
-    color: #333333;
-}
-
-.nav-link:hover {
-    color: #505050;
-}
-
-.navigation-bar-colour {
+header {
     background-color: #E3B9BC;
+}
+
+.brand-name {
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.menu-bar {
+    padding-right: 5px;
+}
+
+.nav a {
     color: #333333;
+    text-decoration: none;
+    font-family: "Abhaya Libre", sans-serif;
+    padding-top: 15px;
+}
+
+.nav a:hover {
+    color: gray;
+    text-decoration: none;
 }
 
 /*------------------ footer */
@@ -38,17 +42,32 @@
     color: #333333;
 }
 
+.footer i:hover {
+    color: gray;
+}
+
+footer {
+    font-family: "Abhaya Libre", sans-serif;
+}
+
+footer h4 {
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
 /*---------------- home page content */
 
 .business-background {
-    height: 300px;
+    height: auto;
     padding-top: 100px;
+    padding-bottom: 100px;
     text-align: center;
     color: #333333;
+    background-color: #AA9ABA;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
-.business-background {
-    background-color: #AA9ABA;
+.business-background h4 {
+    font-family: "Abhaya Libre", sans-serif;
 }
 
 .image-table {
@@ -63,13 +82,9 @@ img {
     object-fit: cover;
 }
 
-.business-background a {
-    color: #333333;
-}
-
-.business-background a:hover {
-    color: #505050;
-    text-decoration: none;
+.home-schedule-button {
+    margin-top: 20px;
+    font-family: "Abhaya Libre", sans-serif;
 }
 
 /*---------------- schedule page content */
@@ -78,19 +93,67 @@ img {
     text-align: center;
     padding: 20px;
     background-color: #AA9ABA;
-    color:#333333
-}
-
-.schedule-explanation a {
     color: #333333;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.schedule-explanation a:hover {
-    color: #505050;
+.schedule-explanation h4 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: x-large;
+}
+
+.schedule-explanation p {
+    font-family: "Abhaya Libre", sans-serif;
+}
+
+table {
+    text-align: center;
+    color: #333333;
+    float: none;
+    font-family: "Abhaya Libre", sans-serif;
+}
+
+a {
+    color: #333333;
     text-decoration: none;
 }
 
-table { 
-    text-align: center;
-    color: #333333;
+.schedule-explanation button {
+    margin-top: 25px;
+    font-family: "Abhaya Libre", sans-serif;
+}
+
+
+/*---------------- contact page content */
+
+.contact-form {
+    background-color: #AA9ABA;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form-boxes {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.contact-form button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: auto;
+    font-family: "Abhaya Libre", sans-serif;
+}
+
+.contact-heading {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: x-large;
+}
+
+.contact-info {
+    font-family: "Abhaya Libre", sans-serif;
+}
+
+.form-boxes {
+    font-family: "Abhaya Libre", sans-serif;
 }

@@ -1,18 +1,3 @@
-/*---------------- colours */
-
-.navigation-bar-colour {
-    background-color: #E3B9BC;
-    color: #505050;
-}
-
-.business-background {
-    background-color: #AA9ABA
-}
-
-a {
-    color: #505050
-}
-
 /*---------------- header */
 
 .business-name {
@@ -28,24 +13,60 @@ a {
     padding-top: 2%;
 }
 
-.nav-link:hover {
-    color: #000
+.nav-link {
+    color: #333333;
 }
 
+.nav-link:hover {
+    color: #505050;
+}
+
+.navigation-bar-colour {
+    background-color: #E3B9BC;
+    color: #333333;
+}
+
+/*------------------ footer */
+
+.footer {
+    padding-top: 10px;
+    background-color: #BFA4A4;
+    text-align: center;
+}
+
+.footer i {
+    color: #333333;
+}
 
 /*---------------- home page content */
 
 .business-background {
-    padding: 120px;
-    padding: 120px;
+    height: 300px;
+    padding-top: 100px;
     text-align: center;
+    color: #333333;
 }
 
-.aerial-images {
-    margin-top: 120px;
-    margin-bottom: 120px;
+.business-background {
+    background-color: #AA9ABA;
+}
+
+.image-table {
+    width: 100%;
+    border: 0;
+    background-color: #AA9ABA;
 }
 
 img {
-    width: 500px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.business-background a {
+    color: #333333;
+}
+
+.business-background a:hover {
+    color: #505050;
 }

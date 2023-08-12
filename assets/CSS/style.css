@@ -10,8 +10,10 @@ header {
     background-color: #E3B9BC;
 }
 
-.brand-name {
+.brand-name h1 {
     font-family: "Montserrat Alternates", sans-serif;
+    font-size: large;
+    padding-top: 15px;
 }
 
 .menu-bar {
@@ -36,6 +38,7 @@ header {
     padding-top: 10px;
     background-color: #BFA4A4;
     text-align: center;
+    height: auto;
 }
 
 .footer i {
@@ -85,6 +88,20 @@ img {
 .home-schedule-button {
     margin-top: 20px;
     font-family: "Abhaya Libre", sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+
+    .image-table  {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .mobile-images {
+        display: none;
+    }
 }
 
 /*---------------- schedule page content */

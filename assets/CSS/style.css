@@ -15,8 +15,17 @@ a {
 
 /*---------------- header */
 
+.business-name {
+    margin-top: 5px;
+}
+
 .nav {
     float: right;
+}
+
+.nav li {
+    display: inline-block;
+    padding-top: 2%;
 }
 
 .nav-link:hover {
@@ -30,7 +39,6 @@ a {
     padding: 120px;
     padding: 120px;
     text-align: center;
-    border-radius: 10px;
 }
 
 .aerial-images {
@@ -38,6 +46,6 @@ a {
     margin-bottom: 120px;
 }
 
-.aerial-images .image1 {
-    background: url("../images/image1.jpg");
+img {
+    width: 500px;
 }

@@ -92,7 +92,7 @@ img {
 
 @media screen and (max-width: 576px) {
 
-    .image-table  {
+    .image-table {
         display: none;
     }
 }

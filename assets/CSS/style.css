@@ -17,6 +17,11 @@ a {
 
 .nav {
     float: right;
+    display: flex;
+}
+
+.nav-link:hover {
+    color: #000
 }
 
 

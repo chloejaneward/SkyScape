@@ -168,7 +168,7 @@ We decided that first time visitors to the site wanted to learn:
 
 * How to easily navigate the website at first glance
   * There is a navigation bar at the top of each page, with simple page names. When you hover over the links, they change to a lighter shade of grey to show they are interactive/links. You can also navigate back to the home pageby clicking on the business name on the left side of the nav bar.
-![nav bar](/documentationnav%20bar.png)
+![nav bar](/documentation/error-2-imgalign.pngnav%20bar.png)
 
 * The cost of joining the aerial classes
   * The price is found on the schedule page. However, considering this is one of the main pieces of information a customer may want, I decided to use the strong element to wrap the prices and make them bold. This will make sure this key information stands out to customers.
@@ -217,9 +217,9 @@ To deploy the site using GitHub Pages:
 
 How to clone the code:
 
-1.Go to the [repository link](https://github.com/chloejaneward/SkyScape) on GitHub
-2.Press the green code button above the repository files, click HTTPS and copy the link
-3.You can then use this code to open a new repository on any code editor, like CodeAnywhere or GitPod.
+1. Go to the [repository link](https://github.com/chloejaneward/SkyScape) on GitHub
+2. Press the green code button above the repository files, click HTTPS and copy the link
+3. You can then use this code to open a new repository on any code editor, like CodeAnywhere or GitPod.
 
 ## Credits
 

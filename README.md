@@ -175,11 +175,18 @@ We decided that first time visitors to the site wanted to learn:
     ![Footer bar address](assets/images/Footer%20Address.png)
 
 * How to easily navigate the website at first glance
-  * There is a navigation bar at the top of each page, with simple page names. When you hover over the links, they change to a lighter shade of grey to show they are interactive/links. 
-* The cost of joining the aerial classes
-* The schedule of classes and a brief explanation of the classes.
+  * There is a navigation bar at the top of each page, with simple page names. When you hover over the links, they change to a lighter shade of grey to show they are interactive/links. You can also navigate back to the home pageby clicking on the business name on the left side of the nav bar. 
+![nav bar](assets/images/nav%20bar.png)
 
-Returning or frequent visitors to the site want to:
+* The cost of joining the aerial classes
+  * The price is found on the schedule page. However, considering this is one of the main pieces of information a customer may want, I decided to use the strong element to wrap the prices and make them bold. This will make sure this key information stands out to customers. 
+  ![price](assets/images/price-list.png)
 
 * Find information about scheduled classes easily
+  * There is a dedicated page for the class schedule. This is linked in the nav bar, but is also linked from the home page of the website so it is easily found. There is a clear table which outlines the different classes, days and times. 
+  ![schedule](assets/images/schedule.png)
+ 
 * Find out how to get in touch with the business owners.
+  * There is a page dedicated to contact the business owners. This is linked on the nav bar, as well as linked through the schedule page as customers are required to contact the business to book classes. The footer also has a contact number and social media links.  
+![contact](assets/images/contact-page.png)
+

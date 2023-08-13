@@ -100,7 +100,7 @@ A colour scheme has been chosen by using [Coolors.co](https://coolors.co/8783d1-
 
 Fonts were decided by using [FontJoy](https://fontjoy.com/#)
 
-Fonts chosen were: 
+Fonts chosen were:
 
 Headings and titles - Montserrat Alternates
 General text - Abhaya Libre
@@ -119,96 +119,92 @@ Mobile background image is purposefully elegant, with light coloured silk that e
 * HTML
 * CSS
 
-### Frameworks used 
+### Frameworks used
 
 * [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) - Bootstrap was used to help make the site more responsible, and to ensure we were creating a mobile-first UXD.
 
 * [Google Fonts](https://fonts.google.com/) - Fonts were imported from Google, with [FontJoy](https://fontjoy.com/#) helping to ensure suitable font pairings.
-
-* [Font Awesome](https://fontawesome.com/) - Icons for social links in the footer, which is good UX as users will recognise these icons. 
-
-* [Figma](https://www.figma.com) - Used for creating Wireframes. 
-
-* [Unsplash](https://unsplash.com/) - 2 of the images were downloaded free from Unsplash for the index.html page. 
-
-* [Pixabay](https://pixabay.com/) - 1 image was downloaded free from Pixabay for the home page. 
-
-* Git - Both GitHub and Git were used for storing the code, and for version control. 
-
+* [Font Awesome](https://fontawesome.com/) - Icons for social links in the footer, which is good UX as users will recognise these icons.
+* [Figma](https://www.figma.com) - Used for creating Wireframes.
+* [Unsplash](https://unsplash.com/) - 2 of the images were downloaded free from Unsplash for the index.html page.
+* [Pixabay](https://pixabay.com/) - 1 image was downloaded free from Pixabay for the home page.
+* Git - Both GitHub and Git were used for storing the code, and for version control.
 * [HTML Formatter](https://www.freeformatter.com/html-formatter.html) - HTML Formatter was used to ensure HTML was formatted neatly, and to remove unecessary spaces.
 
-## Testing 
+## Testing
 
 ### Code Validators & Lighthouse
 
-I used a [HTML Validator](https://validator.w3.org/) to test the code, here are the errors that appeared and were corrected: 
+I used a [HTML Validator](https://validator.w3.org/) to test the code, here are the errors that appeared and were corrected:
 
 * Using the element 'a' as a descendent of the button element. Fixed by changing the elements to 'a' then using the class to format as a button with Bootstrap.
-![Error1](assets/images/error-1-buttonlink.png)
+![Error1](documentation/error-1-buttonlink.png)
   
-  
-* Align attribute on an img element, should use CSS instead. Fixed by removing the align element as was obsolete. 
-![Error2](assets/images/error-2-imgalign.png)
+* Align attribute on an img element, should use CSS instead. Fixed by removing the align element as was obsolete.
+![Error2](documentation/error-2-imgalign.png)
 
-* Warning: Only to use h1 headings for top-level headings, when it was being used for the business name in the nav bar. Changed to p element. 
+* Warning: Only to use h1 headings for top-level headings, when it was being used for the business name in the nav bar. Changed to p element.
 
-I used a [CSS Validator](https://jigsaw.w3.org/css-validator/) to test the CSS Code, here is the error that appeared and was corrected: 
+I used a [CSS Validator](https://jigsaw.w3.org/css-validator/) to test the CSS Code, here is the error that appeared and was corrected:
 
-* I accidentally gave an element a padding of 'auto' which isn't a suitable value. This was accidentally transfered from an old margin styling. Fixed by removing the padding style. 
-![Error3](assets/images/error-3-paddingauto.png)
+* I accidentally gave an element a padding of 'auto' which isn't a suitable value. This was accidentally transfered from an old margin styling. Fixed by removing the padding style.
+![Error3](documentation/error-3-paddingauto.png)
 
-
-I used Lighthouse in Google Chrome Developer Tools to test accessibility: 
-![Lighthouse](assets/images/lighthouse.png)
+I used Lighthouse in Google Chrome Developer Tools to test accessibility:
+![Lighthouse](documentation/lighthouse.png)
 
 ### Testing User Stories as outlined in 'UX: User Experience'
 
 We decided that first time visitors to the site wanted to learn:
 
-* The purpose of the site: 
-  * This was achieved by creating a simple home landing page, with visual representation of the aerial apparatus that the studio offers. There's also simple text to explain what the studio offers. 
-    ![Landing page](assets/images/Landing%20page.png)
-    ![Landing page mobile](assets/images/Landing%20page%20mobile.png)
-    
+* The purpose of the site:
+  * This was achieved by creating a simple home landing page, with visual representation of the aerial apparatus that the studio offers. There's also simple text to explain what the studio offers.
+    ![Landing page](documentation/Landing%20page.png)
+    ![Landing page mobile](documentation/Landing%20page%20mobile.png)
+
 * More about the business and where they are based
-  * The studio's address is always visible in the footer bar. 
-    ![Footer bar address](assets/images/Footer%20Address.png)
+  * The studio's address is always visible in the footer bar.
+    ![Footer bar address](documentation/Footer%20Address.png)
 
 * How to easily navigate the website at first glance
-  * There is a navigation bar at the top of each page, with simple page names. When you hover over the links, they change to a lighter shade of grey to show they are interactive/links. You can also navigate back to the home pageby clicking on the business name on the left side of the nav bar. 
-![nav bar](assets/images/nav%20bar.png)
+  * There is a navigation bar at the top of each page, with simple page names. When you hover over the links, they change to a lighter shade of grey to show they are interactive/links. You can also navigate back to the home pageby clicking on the business name on the left side of the nav bar.
+![nav bar](/documentationnav%20bar.png)
 
 * The cost of joining the aerial classes
-  * The price is found on the schedule page. However, considering this is one of the main pieces of information a customer may want, I decided to use the strong element to wrap the prices and make them bold. This will make sure this key information stands out to customers. 
-  ![price](assets/images/price-list.png)
+  * The price is found on the schedule page. However, considering this is one of the main pieces of information a customer may want, I decided to use the strong element to wrap the prices and make them bold. This will make sure this key information stands out to customers.
+  ![price](documentation/price-list.png)
 
 * Find information about scheduled classes easily
-  * There is a dedicated page for the class schedule. This is linked in the nav bar, but is also linked from the home page of the website so it is easily found. There is a clear table which outlines the different classes, days and times. 
-  ![schedule](assets/images/schedule.png)
- 
+  * There is a dedicated page for the class schedule. This is linked in the nav bar, but is also linked from the home page of the website so it is easily found. There is a clear table which outlines the different classes, days and times.
+  ![schedule](documentation/schedule.png)
+
 * Find out how to get in touch with the business owners.
   * There is a page dedicated to contact the business owners. This is linked on the nav bar, as well as linked through the schedule page as customers are required to contact the business to book classes. The footer also has a contact number and social media links.  
-![contact](assets/images/contact-page.png)
+![contact](documentation/contact-page.png)
 
 ### Additional tests
 
-* I tested how responsive the site was using Google Chrome Developer tools to change the screen size; 
+* I tested how responsive the site was using Google Chrome Developer tools to change the screen size;
   * I noticed that below the width of 358px the nav bar does not stay inline, and seperates onto different lines. It is still functional but may not provide the best UX on smaller devices below 358px.
   * I also noticed that on tablet sized devices, there are blank white spaces at the bottom of pages as well as to the right of the page, which isn't great UX.
-* I made a slight design change to the footer colour, as I felt the site flowed better if the footer was a darker shade of the header colour as opposed to a different pink. 
+* I made a slight design change to the footer colour, as I felt the site flowed better if the footer was a darker shade of the header colour as opposed to a different pink.
 
-## Finished Site 
+## Finished Site
 
 ### Desktop view
 
-Note: In order to get a screenshot of the site pages, I zoomed out on the browser to get the whole page in one shot. This means text looks quite small. 
+Note: In order to get a screenshot of the site pages, I zoomed out on the browser to get the whole page in one shot. This means text looks quite small.
 
-![Desktop View](assets/images/Desktop%20view.png)
+![Desktop View](documentation/Desktop%20view.png)
 
-### Tablet View 
+### Tablet View
 
-![Tablet View](assets/images/Tablet%20View.png)
+![Tablet View](documentation/Tablet%20View.png)
 
-### Mobile View 
+### Mobile View
 
-![Mobile View](assets/images/Mobile%20View.png)
+![Mobile View](documentation/Mobile%20View.png)
+
+## Deployment
+
+Deployment guide.

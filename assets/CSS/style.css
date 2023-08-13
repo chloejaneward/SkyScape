@@ -10,7 +10,7 @@ header {
     background-color: #E3B9BC;
 }
 
-.brand-name h1 {
+.brand-name p {
     font-family: "Montserrat Alternates", sans-serif;
     font-size: large;
     padding-top: 15px;
@@ -157,8 +157,7 @@ a {
 
 .contact-form button {
     margin-bottom: 10px;
-    margin-top: 10px;
-    padding: auto;
+    margin-top: 15px;
     font-family: "Abhaya Libre", sans-serif;
 }
 

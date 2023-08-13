@@ -139,7 +139,9 @@ Mobile background image is purposefully elegant, with light coloured silk that e
 
 ## Testing 
 
-Used HTML Validator to test the code, here are the errors that appered: 
+### Code Validators & Lighthouse
+
+I used a [HTML Validator](https://validator.w3.org/) to test the code, here are the errors that appeared and were corrected: 
 
 * Using the element 'a' as a descendent of the button element. 
 ![Error1](assets/images/error-1-buttonlink.png)
@@ -149,4 +151,15 @@ Used HTML Validator to test the code, here are the errors that appered:
 ![Error2](assets/images/error-2-imgalign.png)
 Fixed by removing the align element as was obsolete. 
 
-* 
+* Warning: Only to use h1 headings for top-level headings, when it was being used for the business name in the nav bar. Changed to p element. 
+
+I used a [CSS Validator](https://jigsaw.w3.org/css-validator/) to test the CSS Code, here is the error that appeared and was corrected: 
+
+* I accidentally gave an element a padding of 'auto' which isn't a suitable value. This was accidentally transfered from an old margin styling. 
+![Error3](assets/images/error-3-paddingauto.png)
+Fixed by removing the padding style. 
+
+
+I used Lighthouse in Google Chrome Developer Tools to test accessibility: 
+![Lighthouse](assets/images/lighthouse.png)
+

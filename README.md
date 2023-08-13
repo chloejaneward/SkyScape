@@ -190,3 +190,25 @@ We decided that first time visitors to the site wanted to learn:
   * There is a page dedicated to contact the business owners. This is linked on the nav bar, as well as linked through the schedule page as customers are required to contact the business to book classes. The footer also has a contact number and social media links.  
 ![contact](assets/images/contact-page.png)
 
+### Additional tests
+
+* I tested how responsive the site was using Google Chrome Developer tools to change the screen size; 
+  * I noticed that below the width of 358px the nav bar does not stay inline, and seperates onto different lines. It is still functional but may not provide the best UX on smaller devices below 358px.
+  * I also noticed that on tablet sized devices, there are blank white spaces at the bottom of pages as well as to the right of the page, which isn't great UX.
+* I made a slight design change to the footer colour, as I felt the site flowed better if the footer was a darker shade of the header colour as opposed to a different pink. 
+
+## Finished Site 
+
+### Desktop view
+
+Note: In order to get a screenshot of the site pages, I zoomed out on the browser to get the whole page in one shot. This means text looks quite small. 
+
+![Desktop View](assets/images/Desktop%20view.png)
+
+### Tablet View 
+
+![Tablet View](assets/images/Tablet%20View.png)
+
+### Mobile View 
+
+![Mobile View](assets/images/Mobile%20View.png)

@@ -145,4 +145,8 @@ Used HTML Validator to test the code, here are the errors that appered:
 ![Error1](assets/images/error-1-buttonlink.png)
   Fixed by changing the elements to 'a' then using the class to format as a button with Bootstrap. 
   
+* Align attribute on an img element, should use CSS instead. 
+![Error2](assets/images/error-2-imgalign.png)
+Fixed by removing the align element as was obsolete. 
+
 * 

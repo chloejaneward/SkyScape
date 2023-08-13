@@ -85,7 +85,7 @@ img {
     object-fit: cover;
 }
 
-.home-schedule-button {
+.business-background .btn {
     margin-top: 20px;
     font-family: "Abhaya Libre", sans-serif;
 }
@@ -136,7 +136,7 @@ a {
     text-decoration: none;
 }
 
-.schedule-explanation button {
+.schedule-explanation .btn {
     margin-top: 25px;
     font-family: "Abhaya Libre", sans-serif;
 }

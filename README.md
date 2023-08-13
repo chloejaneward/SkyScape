@@ -134,3 +134,15 @@ Mobile background image is purposefully elegant, with light coloured silk that e
 * [Pixabay](https://pixabay.com/) - 1 image was downloaded free from Pixabay for the home page. 
 
 * Git - Both GitHub and Git were used for storing the code, and for version control. 
+
+* [HTML Formatter](https://www.freeformatter.com/html-formatter.html) - HTML Formatter was used to ensure HTML was formatted neatly, and to remove unecessary spaces.
+
+## Testing 
+
+Used HTML Validator to test the code, here are the errors that appered: 
+
+* Using the element 'a' as a descendent of the button element. 
+![Error1](assets/images/error-1-buttonlink.png)
+  Fixed by changing the elements to 'a' then using the class to format as a button with Bootstrap. 
+  
+* 

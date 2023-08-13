@@ -220,3 +220,17 @@ How to clone the code:
 1.Go to the [repository link](https://github.com/chloejaneward/SkyScape) on GitHub
 2.Press the green code button above the repository files, click HTTPS and copy the link
 3.You can then use this code to open a new repository on any code editor, like CodeAnywhere or GitPod.
+
+## Credits
+
+### Content
+
+All content my own.
+
+All media/images have been taken from Unsplash and Pixabay.
+
+### Acknowledgements
+
+Thanks to Iris from Code Institute for supporting me and providing examples.
+
+Thanks for my mentor for their guidance.

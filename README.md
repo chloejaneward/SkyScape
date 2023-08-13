@@ -143,23 +143,43 @@ Mobile background image is purposefully elegant, with light coloured silk that e
 
 I used a [HTML Validator](https://validator.w3.org/) to test the code, here are the errors that appeared and were corrected: 
 
-* Using the element 'a' as a descendent of the button element. 
+* Using the element 'a' as a descendent of the button element. Fixed by changing the elements to 'a' then using the class to format as a button with Bootstrap.
 ![Error1](assets/images/error-1-buttonlink.png)
-  Fixed by changing the elements to 'a' then using the class to format as a button with Bootstrap. 
   
-* Align attribute on an img element, should use CSS instead. 
+  
+* Align attribute on an img element, should use CSS instead. Fixed by removing the align element as was obsolete. 
 ![Error2](assets/images/error-2-imgalign.png)
-Fixed by removing the align element as was obsolete. 
 
 * Warning: Only to use h1 headings for top-level headings, when it was being used for the business name in the nav bar. Changed to p element. 
 
 I used a [CSS Validator](https://jigsaw.w3.org/css-validator/) to test the CSS Code, here is the error that appeared and was corrected: 
 
-* I accidentally gave an element a padding of 'auto' which isn't a suitable value. This was accidentally transfered from an old margin styling. 
+* I accidentally gave an element a padding of 'auto' which isn't a suitable value. This was accidentally transfered from an old margin styling. Fixed by removing the padding style. 
 ![Error3](assets/images/error-3-paddingauto.png)
-Fixed by removing the padding style. 
 
 
 I used Lighthouse in Google Chrome Developer Tools to test accessibility: 
 ![Lighthouse](assets/images/lighthouse.png)
 
+### Testing User Stories as outlined in 'UX: User Experience'
+
+We decided that first time visitors to the site wanted to learn:
+
+* The purpose of the site: 
+  * This was achieved by creating a simple home landing page, with visual representation of the aerial apparatus that the studio offers. There's also simple text to explain what the studio offers. 
+    ![Landing page](assets/images/Landing%20page.png)
+    ![Landing page mobile](assets/images/Landing%20page%20mobile.png)
+    
+* More about the business and where they are based
+  * The studio's address is always visible in the footer bar. 
+    ![Footer bar address](assets/images/Footer%20Address.png)
+
+* How to easily navigate the website at first glance
+  * There is a navigation bar at the top of each page, with simple page names. When you hover over the links, they change to a lighter shade of grey to show they are interactive/links. 
+* The cost of joining the aerial classes
+* The schedule of classes and a brief explanation of the classes.
+
+Returning or frequent visitors to the site want to:
+
+* Find information about scheduled classes easily
+* Find out how to get in touch with the business owners.

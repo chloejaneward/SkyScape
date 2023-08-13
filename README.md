@@ -2,7 +2,7 @@
 
 SkyScape is a website for a fictional aerial arts studio. The business operates like a gym and has classes scheduled weekly for aerial hoop, silks and trapeze. The website has a dual purpose; to advertise classes to new customers, and to inform current customers of class times. It will also provide information on how to get in touch with the business owners.
 
-Here is a link to the deployed site:
+Here is a link to the deployed site: [link to site](https://chloejaneward.github.io/SkyScape/)
 
 ## UX: User Experience
 

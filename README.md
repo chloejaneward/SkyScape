@@ -207,4 +207,16 @@ Note: In order to get a screenshot of the site pages, I zoomed out on the browse
 
 ## Deployment
 
-Deployment guide.
+To deploy the site using GitHub Pages:
+
+1. Navigate to the repository on GitHub
+2. Click onto the settings for the repository (not the general GitHub settings)
+3. Click on 'Pages' under 'Code and Automation' in the left hand menu
+4. Make sure the source option is on 'master'
+5. The link for your site will be available at the top of the page
+
+How to clone the code:
+
+1.Go to the [repository link](https://github.com/chloejaneward/SkyScape) on GitHub
+2.Press the green code button above the repository files, click HTTPS and copy the link
+3.You can then use this code to open a new repository on any code editor, like CodeAnywhere or GitPod.
